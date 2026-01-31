@@ -14,7 +14,8 @@ Random vertical and horizontal moves ensure all possible binary trees of the cho
 are equally likely.
 Works for any size tree.
 Fast: bench_rand 18,600,000 tree nodes per second.
-(bench_rand based on GPquick).
+(bench_rand based on GPquick and
+for simplicity includes more files from GPquick than it needs to).
 
 bench_rand generates a random binary tree,
 which is piped into gawk script test_expr.awk
