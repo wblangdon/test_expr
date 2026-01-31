@@ -1,0 +1,13 @@
+bench_avx ($Revision: 1.1 $) Node caldew.cs.ucl.ac.uk
+%expr primitives $Revision: 1.00a $
+
+% OPs (11)MUL 1 2 3 4 5 6 7 8 9 
+
+Sextic polynomial. $Revision: 1.39 $
+seed 100 pMaxExpr 9 random_tree(9,arity_count[0,4,0,0]) depth:4
+random_tree 9 depth 4 took 12169 ns
+ Created 0 fitness 0 len 9 children 0 depth 4
+avx	= (MUL (MUL 8 3) (MUL (MUL 5 5) 4))
+
+GP took 0 secs. Finished at Sat Jan 31 14:20:38 2026
+

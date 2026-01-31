@@ -1,0 +1,7 @@
+#text_expr.awk $Revision: 1.5 $ -
+#bench_avx ($Revision: 1.1 $) Node caldew.cs.ucl.ac.uk
+#%expr primitives $Revision: 1.00a $
+#Sextic polynomial. $Revision: 1.39 $
+#seed 100
+
+expr "(" 30635 ">=" 29054 ")" "<" "(" "(" 25319 "+" 10951 ")" "=" 2375 ")" 
