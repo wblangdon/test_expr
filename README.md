@@ -15,7 +15,7 @@ are equally likely.
 Works for any size tree.
 Fast: bench_rand 18,600,000 tree nodes per second
 [arXiv:2001.04505](https://arxiv.org/pdf/2001.04505).
-(bench_rand based on GPquick and
+(bench_rand is based on GPquick and
 for simplicity includes more files from GPquick than it ought to).
 
 bench_rand generates a random binary tree,
